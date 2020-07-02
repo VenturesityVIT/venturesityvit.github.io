@@ -1,0 +1,143 @@
+body{
+  font-family: "Montserrat";
+}
+
+#title{
+  background-color: #000000;
+  padding: 3% 15% 7%;
+}
+
+h1{
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: bolder;
+  color: #fff;
+}
+
+h2{
+  font-weight: bolder;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3{
+  font-weight: bolder;
+}
+p{
+  color: #8f8f8f;
+}
+
+/* Navigartion Bar */
+
+.navbar {
+   padding: 0 0 3.5rem;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat"
+}
+
+/* title-image */
+
+.title-image{
+  width: 75%;
+  position: absolute;
+  right: 15%;
+}
+
+/* features section */
+#features{
+  text-align: center;
+  padding: 7% 15%;
+  background-color: #323232;
+  position: relative;
+}
+
+.feature-box{
+  text-align: center;
+  padding: 5%;
+  color: #eeee;
+}
+
+.icon{
+  color:#00fff5;
+  margin-bottom: 1rem;
+}
+
+/* Events section */
+
+#events{
+  padding: 7%;
+  text-align: center;
+  background-color: #000000;
+  color: #eeee;
+
+}
+
+.events-column{
+  padding: 3% 2%;
+}
+
+.card{
+  background-color: #000000;
+}
+
+.card-image{
+  width: 33.50%;
+  position: relative;
+}
+
+/* Media section */
+
+#media{
+  text-align: center;
+  background-color: #323232;
+  color: white;
+  padding-top: 7%;
+}
+.carousel-item{
+  padding: 0 15% 7%;
+}
+
+#press{
+  background-color: #323232;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Footer section */
+#footer{
+  padding: 5% 15%;
+  text-align: center;
+  background-color: #000000;
+}
+
+.social-icon{
+  margin: 20px 10px;
+  color: #eeee;
+}
+
+@media (max-width: 1028px) {
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+  }
+}
