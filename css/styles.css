@@ -7,13 +7,13 @@ body{
 #title{
   background-color: #000000;
   padding: 3% 15% 7%;
+  color: #fff;
 }
 
 h1{
   font-size: 3.5rem;
   line-height: 1.5;
   font-weight: bolder;
-  color: #fff;
 }
 
 h2{
@@ -64,6 +64,7 @@ p{
   padding: 7% 15%;
   background-color: #323232;
   position: relative;
+  color: #fff;
 }
 
 .feature-box{
@@ -84,6 +85,7 @@ p{
   text-align: center;
   background-color: #000000;
   color: #eeee;
+  color: #fff;
 
 }
 
@@ -99,7 +101,7 @@ p{
 }
 
 .card-image{
-  width: 33.50%;
+  width: 38%;
   position: relative;
 }
 
@@ -110,19 +112,26 @@ p{
   background-color: #323232;
   color: white;
   padding-top: 7%;
+  color: #fff;
 }
 .carousel-item{
   padding: 0 15% 7%;
 }
 
 #press{
-  background-color: #323232;
+  background-color: white;
   text-align: center;
-  padding-bottom: 3%;
+  color: black;
+  padding-top: 3%;
 }
 
 .press-logo{
-  width: 15%;
+  width: 20%;
+  margin: 20px 20px 50px;
+}
+
+.board-img{
+  width:40%;
   margin: 20px 20px 50px;
 }
 
@@ -131,6 +140,7 @@ p{
   padding: 5% 15%;
   text-align: center;
   background-color: #000000;
+  color: #fff;
 }
 
 .social-icon{
